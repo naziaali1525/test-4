@@ -1,0 +1,51 @@
+.card{
+    width: 10%;
+    height: 65px;
+    margin: 5px;
+}
+.card-body{
+    padding: 8px 10px;
+    line-height: 1.2;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-weight: 500;
+
+}
+.book-name, .price{
+   margin: 0;
+}
+.price{
+    color: #555555;
+}
+#container{
+    display: flex;
+}
+.para{
+    font-size: 13px;
+    padding: 50px 0;
+    color: #0668ca;
+}
+.free{
+    color: #b23221;
+}
+.from{
+    color: #555555;
+}
+.fab{
+    color: #f5a43c;
+    margin-right: 10px;
+}
+.card:hover{
+    border-color: #f5a43c;
+    background-color: #fef8f2;
+    cursor: pointer;
+
+}
+.card:hover .price{
+    color: #b23221;
+}
+/* .mass{
+    height: 15px;
+} */
